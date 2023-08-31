@@ -34,7 +34,7 @@ header .menu ul{
     margin-right: 100px;
 }
 
-section{
+.about{
     margin: 10px;
     display: flex;
     background-color: bisque;
@@ -55,7 +55,13 @@ section .about p{
     font-size: 25px;
 }
 
-.contact{
+.allcontent{
+    margin: 10px;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.div-content{
     display: flex;
     justify-content: space-between;
 }
