@@ -13,6 +13,7 @@ header{
 }
 
 h1{
+    font-family: 'Dancing Script', cursive;
     padding: 10px;
     font-size: 65px;
     margin-left: 100px;
@@ -37,7 +38,7 @@ header .menu ul{
 .about{
     margin: 10px;
     display: flex;
-    background-color: bisque;
+    background-color: rgb(248, 208, 158);
     padding: 10px;
 }
 
@@ -57,7 +58,7 @@ section .about p{
 
 .allcontent{
     margin: 10px;
-    background-color: bisque;
+    background-color: rgb(248, 208, 158);
     padding: 10px;
 }
 
@@ -66,17 +67,86 @@ section .about p{
     justify-content: space-between;
 }
 
-.form-contact form input,
-.form-contact form textarea,
-.form-contact form button{
+.form{
+    margin-left: 10px;
+    padding-left: 320px;
+    background-color: rgb(248, 208, 158);
+}
+
+.form form input,
+.form form textarea,
+.form form button{
     display: block;
     width: 300px;
     margin: 5px;
     padding: 9px;
+    position: relative;
+    right: 162.5px;
+
 }
 
-.social-media img{
-    display: flex;
+.form h2{
+    padding: 10px;
+    position: relative;
+    right: 80px;
+}
+
+.imgblock img{
     height: 30px;
+    display: inline-block;
+    justify-content: space-around;
+    padding: 0px 30px 0 0;
+    position: relative;
+    right: 110px;
+}
+
+.imgblock{
+    margin-top: 30px;
+}
+
+.formadress-content{
+    display: flex;
     justify-content: space-between;
 }
+
+.adress{
+    background-color:rgb(248, 208, 158) ;
+    margin-right: 10px;
+    padding-left: 265px;
+}
+
+.adress img{
+    height: 250px;
+    position: relative;
+    right: 168.5px;
+}
+
+.adress h2{
+    position: relative;
+    right: 85px;
+    padding: 10px 0 20px 0;
+
+}
+
+.adress p{
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    right: 140px;
+    padding: 10px 0 20px 0;
+}
+
+footer{
+    background-color: rgb(248, 208, 158);
+    padding: 10px 0 10px 10px;
+    margin: 10px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    font-weight:lighter;
+    padding: 10px 0 0 10px;
+}
+
+
+
