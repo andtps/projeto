@@ -70,7 +70,6 @@ section .about p{
 .form{
     margin-left: 10px;
     padding-left: 320px;
-    background-color: rgb(248, 208, 158);
 }
 
 .form form input,
@@ -83,6 +82,10 @@ section .about p{
     position: relative;
     right: 162.5px;
 
+}
+
+form textarea{
+    resize: none;
 }
 
 .form h2{
@@ -104,35 +107,29 @@ section .about p{
     margin-top: 30px;
 }
 
+#form-adress, 
 .formadress-content{
     display: flex;
     justify-content: space-between;
+    background-color: rgb(248, 208, 158);
+    margin: 0 10px 0 10px;
 }
 
 .adress{
-    background-color:rgb(248, 208, 158) ;
-    margin-right: 10px;
-    padding-left: 265px;
+    margin-left: 90px;
 }
 
 .adress img{
     height: 250px;
-    position: relative;
-    right: 168.5px;
+    margin: 10px 0 10px 0;
 }
 
 .adress h2{
-    position: relative;
-    right: 85px;
-    padding: 10px 0 20px 0;
-
+    margin: 10px 0  10px 75px;
 }
 
 .adress p{
-    font-family: 'Roboto Condensed', sans-serif;
-    position: relative;
-    right: 140px;
-    padding: 10px 0 20px 0;
+    margin: 10px 0 10px 35px;
 }
 
 footer{
@@ -147,6 +144,3 @@ footer p{
     font-weight:lighter;
     padding: 10px 0 0 10px;
 }
-
-
-
